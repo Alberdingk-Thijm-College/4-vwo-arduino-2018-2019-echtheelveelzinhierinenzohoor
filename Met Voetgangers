@@ -32,11 +32,12 @@ pinMode(roodsl4, OUTPUT);
 pinMode(geelsl4, OUTPUT);
 pinMode(groensl4, OUTPUT);
 //slvoet1
-pinMode(rood
+pinMode(roodvoetsl1, OUTPUT);
+pinMode(groenvoetsl1, OUTPUT);
 }
 
 void loop(){
-//sl 1,3 groen, 2,4 rood
+//sl 1,3 groen, 2,4 rood, v
   digitalWrite(roodsl1,LOW);          
   digitalWrite(geelsl1,LOW);
   digitalWrite(groensl1,HIGH); //groen
