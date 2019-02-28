@@ -50,6 +50,8 @@ void loop(){
   digitalWrite(roodsl4, HIGH); //rood
   digitalWrite(geelsl4, LOW);
   digitalWrite(groensl4, LOW);
+  digitalWrite(roodvoetsl1,HIGH); //rood
+  digitalWrite(groenvoetsl1,LOW);
   delay(3000);
 //sl 1,3 geel, 2,4 rood
   digitalWrite(roodsl1,LOW);
@@ -64,6 +66,8 @@ void loop(){
   digitalWrite(roodsl4, HIGH); //rood
   digitalWrite(geelsl4, LOW);
   digitalWrite(groensl4, LOW);
+  digitalWrite(roodvoetsl1, HIGH); //rood
+  digitalWrite(groenvoetsl1, LOW);
   delay(2000);
 //sl 1,2,3,4 rood
   digitalWrite(roodsl1,HIGH); //rood
@@ -78,6 +82,8 @@ void loop(){
   digitalWrite(roodsl4, HIGH); //rood
   digitalWrite(geelsl4, LOW);
   digitalWrite(groensl4, LOW);
+  digitalWrite(roodvoetsl1, HIGH); //rood
+  digitalWrite(gorenvoetsl1, LOW);
   delay(1000);
 //sl 2,4 groen, 1,3 rood
   digitalWrite(roodsl1,HIGH); //rood
@@ -92,6 +98,8 @@ void loop(){
   digitalWrite(roodsl4, LOW);
   digitalWrite(geelsl4, LOW);
   digitalWrite(groensl4, HIGH); //groen
+  digitalWrite(roodvoetsl1, LOW);
+  digitalWrite(gorenvoetsl1, HIGH); //groen
   delay(3000);
 //sl 2,4 geel, 1,3 rood
   digitalWrite(roodsl1,HIGH); //rood
@@ -106,6 +114,8 @@ void loop(){
   digitalWrite(roodsl4, LOW);
   digitalWrite(geelsl4, HIGH); //geel
   digitalWrite(groensl4, LOW);
+  digitalWrite(roodvoetsl1, LOW);
+  digitalWrite(groenvoetsl1, HIGH); //groen
   delay(2000);
 
 //sl 1,2,3,4 rood
@@ -121,6 +131,8 @@ void loop(){
   digitalWrite(roodsl4, HIGH); //rood
   digitalWrite(geelsl4, LOW);
   digitalWrite(groensl4, LOW);
+  digitalWrite(roodvoetsl1, HIGH);
+  digitalWrite(groenvoetsl1, LOW); //groen
   delay(1000);
 
 //sl 1,3 groen, 2,4 rood
@@ -136,6 +148,8 @@ void loop(){
   digitalWrite(roodsl4, HIGH); //rood
   digitalWrite(geelsl4, LOW);
   digitalWrite(groensl4, LOW);
+  digitalWrite(roodvoetsl1, HIGH) //rood
+  digitalWrite(groenvoetsl1, LOW)
   delay(3000);
 //sl 1,3 geel, 2,4 rood
   digitalWrite(roodsl1,LOW); 
@@ -150,6 +164,8 @@ void loop(){
   digitalWrite(roodsl4, HIGH); //rood
   digitalWrite(geelsl4, LOW);
   digitalWrite(groensl4, LOW);
+  digitalWrite(roodvoetsl1, HIGH); //rood
+  digitalWrite(groenvoetsl1, LOW);
   delay(2000);
 //sl 1,2,3,4 rood
   digitalWrite(roodsl1,HIGH); //rood
@@ -164,6 +180,8 @@ void loop(){
   digitalWrite(roodsl4, HIGH); //rood
   digitalWrite(geelsl4, LOW);
   digitalWrite(groensl4, LOW);
+  digitalWrite(roodvoetsl1, HIGH); //rood
+  digitalWrite(groenvoetsl1, LOW);
   delay(1000);
 //sl 2,4 groen, 1,3 rood
   digitalWrite(roodsl1,HIGH); //rood
@@ -178,6 +196,8 @@ void loop(){
   digitalWrite(roodsl4, LOW);
   digitalWrite(geelsl4, LOW);
   digitalWrite(groensl4, HIGH); //groen
+  digitalWrite(roodvoetsl1, LOW);
+  digitalWrite(groenvoetsl1, HIGH); //groen
   delay(3000);
 //sl 2,4 geel, 1,3 rood
   digitalWrite(roodsl1,HIGH); //rood
@@ -192,6 +212,8 @@ void loop(){
   digitalWrite(roodsl4, LOW);
   digitalWrite(geelsl4, HIGH); //geel
   digitalWrite(groensl4, LOW);
+  digitalWrite(roodvoetsl1, LOW);
+  digitalWrite(groenvoetsl1, HIGH); //groen
   delay(2000);
 //sl 1,2,3,4 rood
   digitalWrite(roodsl1,HIGH); //rood
@@ -206,5 +228,7 @@ void loop(){
   digitalWrite(roodsl4, HIGH); //rood
   digitalWrite(geelsl4, LOW);
   digitalWrite(groensl4, LOW);
+  digitalWrite(roodvoetsl1, HIGH); //rood
+  digitalWrite(groenvoetsl1, LOW);
   delay(1000);
 }
