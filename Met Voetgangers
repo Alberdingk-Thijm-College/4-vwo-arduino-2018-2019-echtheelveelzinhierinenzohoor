@@ -1,0 +1,209 @@
+int roodsl1 = 4;
+int geelsl1 = 5;
+int groensl1 = 6;
+int roodsl2 = 1;
+int geelsl2 = 2;
+int groensl2 = 3; 
+int roodsl3 = 7;
+int geelsl3 = 8;
+int groensl3 = 9;
+int roodsl4 = 10;
+int geelsl4 = 11;
+int groensl4 = 12;
+int roodvoetsl1 = 13;
+int groenvoetsl = 14;
+
+
+void setup(){
+//sl1
+pinMode(roodsl1, OUTPUT);
+pinMode(geelsl1, OUTPUT);
+pinMode(groensl1, OUTPUT);
+//sl2
+pinMode(roodsl2, OUTPUT);
+pinMode(geelsl2, OUTPUT);
+pinMode(groensl2, OUTPUT);
+//sl3
+pinMode(roodsl3, OUTPUT);
+pinMode(geelsl3, OUTPUT);
+pinMode(groensl3, OUTPUT);
+//sl4
+pinMode(roodsl4, OUTPUT);
+pinMode(geelsl4, OUTPUT);
+pinMode(groensl4, OUTPUT);
+//slvoet1
+pinMode(rood
+}
+
+void loop(){
+//sl 1,3 groen, 2,4 rood
+  digitalWrite(roodsl1,LOW);          
+  digitalWrite(geelsl1,LOW);
+  digitalWrite(groensl1,HIGH); //groen
+  digitalWrite(roodsl2,HIGH); //rood
+  digitalWrite(geelsl2,LOW);
+  digitalWrite(groensl2,LOW);
+  digitalWrite(roodsl3,LOW);
+  digitalWrite(geelsl3,LOW);
+  digitalWrite(groensl3,HIGH); //groen
+  digitalWrite(roodsl4, HIGH); //rood
+  digitalWrite(geelsl4, LOW);
+  digitalWrite(groensl4, LOW);
+  delay(3000);
+//sl 1,3 geel, 2,4 rood
+  digitalWrite(roodsl1,LOW);
+  digitalWrite(geelsl1,HIGH); //geel
+  digitalWrite(groensl1,LOW);
+  digitalWrite(roodsl2,HIGH); //rood
+  digitalWrite(geelsl2,LOW);
+  digitalWrite(groensl2,LOW);
+  digitalWrite(roodsl3,LOW);
+  digitalWrite(geelsl3,HIGH); //geel
+  digitalWrite(groensl3,LOW);
+  digitalWrite(roodsl4, HIGH); //rood
+  digitalWrite(geelsl4, LOW);
+  digitalWrite(groensl4, LOW);
+  delay(2000);
+//sl 1,2,3,4 rood
+  digitalWrite(roodsl1,HIGH); //rood
+  digitalWrite(geelsl1,LOW);
+  digitalWrite(groensl1,LOW);
+  digitalWrite(roodsl2,HIGH); //rood
+  digitalWrite(geelsl2,LOW);
+  digitalWrite(groensl2,LOW);
+  digitalWrite(roodsl3,HIGH); //rood
+  digitalWrite(geelsl3,LOW);
+  digitalWrite(groensl3,LOW);
+  digitalWrite(roodsl4, HIGH); //rood
+  digitalWrite(geelsl4, LOW);
+  digitalWrite(groensl4, LOW);
+  delay(1000);
+//sl 2,4 groen, 1,3 rood
+  digitalWrite(roodsl1,HIGH); //rood
+  digitalWrite(geelsl1,LOW);
+  digitalWrite(groensl1,LOW);
+  digitalWrite(roodsl2,LOW);
+  digitalWrite(geelsl2,LOW);
+  digitalWrite(groensl2,HIGH); //groen
+  digitalWrite(roodsl3,HIGH); //rood
+  digitalWrite(geelsl3,LOW);
+  digitalWrite(groensl3,LOW);
+  digitalWrite(roodsl4, LOW);
+  digitalWrite(geelsl4, LOW);
+  digitalWrite(groensl4, HIGH); //groen
+  delay(3000);
+//sl 2,4 geel, 1,3 rood
+  digitalWrite(roodsl1,HIGH); //rood
+  digitalWrite(geelsl1,LOW);
+  digitalWrite(groensl1,LOW);
+  digitalWrite(roodsl2,LOW);
+  digitalWrite(geelsl2,HIGH); //geel
+  digitalWrite(groensl2,LOW);
+  digitalWrite(roodsl3,HIGH); //rood
+  digitalWrite(geelsl3,LOW);
+  digitalWrite(groensl3,LOW);
+  digitalWrite(roodsl4, LOW);
+  digitalWrite(geelsl4, HIGH); //geel
+  digitalWrite(groensl4, LOW);
+  delay(2000);
+
+//sl 1,2,3,4 rood
+  digitalWrite(roodsl1,HIGH); //rood
+  digitalWrite(geelsl1,LOW);
+  digitalWrite(groensl1,LOW);
+  digitalWrite(roodsl2,HIGH); //rood
+  digitalWrite(geelsl2,LOW);
+  digitalWrite(groensl2,LOW);
+  digitalWrite(roodsl3,HIGH); //rood
+  digitalWrite(geelsl3,LOW);
+  digitalWrite(groensl3,LOW);
+  digitalWrite(roodsl4, HIGH); //rood
+  digitalWrite(geelsl4, LOW);
+  digitalWrite(groensl4, LOW);
+  delay(1000);
+
+//sl 1,3 groen, 2,4 rood
+  digitalWrite(roodsl1,LOW); 
+  digitalWrite(geelsl1,LOW);
+  digitalWrite(groensl1,HIGH); //groen
+  digitalWrite(roodsl2,HIGH); //rood
+  digitalWrite(geelsl2,LOW);
+  digitalWrite(groensl2,LOW);
+  digitalWrite(roodsl3,LOW);
+  digitalWrite(geelsl3,LOW);
+  digitalWrite(groensl3,HIGH); //groen
+  digitalWrite(roodsl4, HIGH); //rood
+  digitalWrite(geelsl4, LOW);
+  digitalWrite(groensl4, LOW);
+  delay(3000);
+//sl 1,3 geel, 2,4 rood
+  digitalWrite(roodsl1,LOW); 
+  digitalWrite(geelsl1,HIGH); //geel
+  digitalWrite(groensl1,LOW);
+  digitalWrite(roodsl2,HIGH); //rood
+  digitalWrite(geelsl2,LOW);
+  digitalWrite(groensl2,LOW);
+  digitalWrite(roodsl3,LOW);
+  digitalWrite(geelsl3,HIGH); //geel
+  digitalWrite(groensl3,LOW);
+  digitalWrite(roodsl4, HIGH); //rood
+  digitalWrite(geelsl4, LOW);
+  digitalWrite(groensl4, LOW);
+  delay(2000);
+//sl 1,2,3,4 rood
+  digitalWrite(roodsl1,HIGH); //rood
+  digitalWrite(geelsl1,LOW);
+  digitalWrite(groensl1,LOW);
+  digitalWrite(roodsl2,HIGH); //rood
+  digitalWrite(geelsl2,LOW);
+  digitalWrite(groensl2,LOW);
+  digitalWrite(roodsl3,HIGH); //rood
+  digitalWrite(geelsl3,LOW);
+  digitalWrite(groensl3,LOW);
+  digitalWrite(roodsl4, HIGH); //rood
+  digitalWrite(geelsl4, LOW);
+  digitalWrite(groensl4, LOW);
+  delay(1000);
+//sl 2,4 groen, 1,3 rood
+  digitalWrite(roodsl1,HIGH); //rood
+  digitalWrite(geelsl1,LOW);
+  digitalWrite(groensl1,LOW);
+  digitalWrite(roodsl2,LOW); 
+  digitalWrite(geelsl2,LOW);
+  digitalWrite(groensl2,HIGH); //groen
+  digitalWrite(roodsl3,HIGH); //rood
+  digitalWrite(geelsl3,LOW);
+  digitalWrite(groensl3,LOW);
+  digitalWrite(roodsl4, LOW);
+  digitalWrite(geelsl4, LOW);
+  digitalWrite(groensl4, HIGH); //groen
+  delay(3000);
+//sl 2,4 geel, 1,3 rood
+  digitalWrite(roodsl1,HIGH); //rood
+  digitalWrite(geelsl1,LOW);
+  digitalWrite(groensl1,LOW);
+  digitalWrite(roodsl2,LOW); 
+  digitalWrite(geelsl2,HIGH); //geel
+  digitalWrite(groensl2,LOW);
+  digitalWrite(roodsl3,HIGH); //rood
+  digitalWrite(geelsl3,LOW);
+  digitalWrite(groensl3,LOW);
+  digitalWrite(roodsl4, LOW);
+  digitalWrite(geelsl4, HIGH); //geel
+  digitalWrite(groensl4, LOW);
+  delay(2000);
+//sl 1,2,3,4 rood
+  digitalWrite(roodsl1,HIGH); //rood
+  digitalWrite(geelsl1,LOW);
+  digitalWrite(groensl1,LOW);
+  digitalWrite(roodsl2,HIGH); //rood
+  digitalWrite(geelsl2,LOW);
+  digitalWrite(groensl2,LOW);
+  digitalWrite(roodsl3,HIGH); //rood
+  digitalWrite(geelsl3,LOW);
+  digitalWrite(groensl3,LOW);
+  digitalWrite(roodsl4, HIGH); //rood
+  digitalWrite(geelsl4, LOW);
+  digitalWrite(groensl4, LOW);
+  delay(1000);
+}
